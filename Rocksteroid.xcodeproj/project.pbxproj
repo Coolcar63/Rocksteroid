@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		58FA05B3306062690002A40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FA0594306062660002A40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FA059B306062660002A40E;
+			remoteInfo = Rocksteroid;
+		};
+		58FA05BD306062690002A40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FA0594306062660002A40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FA059B306062660002A40E;
+			remoteInfo = Rocksteroid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58FA059C306062660002A40E /* Rocksteroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rocksteroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FA05B2306062690002A40E /* RocksteroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocksteroidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FA05BC306062690002A40E /* RocksteroidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocksteroidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		58FA059E306062660002A40E /* Rocksteroid */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Rocksteroid;
+			sourceTree = "<group>";
+		};
+		58FA05B5306062690002A40E /* RocksteroidTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RocksteroidTests;
+			sourceTree = "<group>";
+		};
+		58FA05BF306062690002A40E /* RocksteroidUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RocksteroidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FA0599306062660002A40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		58FA05AF306062690002A40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		58FA05B9306062690002A40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58FA0593306062660002A40E = {
+			isa = PBXGroup;
+			children = (
+				58FA059E306062660002A40E /* Rocksteroid */,
+				58FA05B5306062690002A40E /* RocksteroidTests */,
+				58FA05BF306062690002A40E /* RocksteroidUITests */,
+				58FA059D306062660002A40E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58FA059D306062660002A40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FA059C306062660002A40E /* Rocksteroid.app */,
+				58FA05B2306062690002A40E /* RocksteroidTests.xctest */,
+				58FA05BC306062690002A40E /* RocksteroidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58FA059B306062660002A40E /* Rocksteroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FA05C4306062690002A40E /* Build configuration list for PBXNativeTarget "Rocksteroid" */;
+			buildPhases = (
+				58FA0598306062660002A40E /* Sources */,
+				58FA0599306062660002A40E /* Frameworks */,
+				58FA059A306062660002A40E /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				58FA059E306062660002A40E /* Rocksteroid */,
+			);
+			name = Rocksteroid;
+			productName = Rocksteroid;
+			productReference = 58FA059C306062660002A40E /* Rocksteroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58FA05B1306062690002A40E /* RocksteroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FA05C7306062690002A40E /* Build configuration list for PBXNativeTarget "RocksteroidTests" */;
+			buildPhases = (
+				58FA05AE306062690002A40E /* Sources */,
+				58FA05AF306062690002A40E /* Frameworks */,
+				58FA05B0306062690002A40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FA05B4306062690002A40E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				58FA05B5306062690002A40E /* RocksteroidTests */,
+			);
+			name = RocksteroidTests;
+			productName = RocksteroidTests;
+			productReference = 58FA05B2306062690002A40E /* RocksteroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58FA05BB306062690002A40E /* RocksteroidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FA05CA306062690002A40E /* Build configuration list for PBXNativeTarget "RocksteroidUITests" */;
+			buildPhases = (
+				58FA05B8306062690002A40E /* Sources */,
+				58FA05B9306062690002A40E /* Frameworks */,
+				58FA05BA306062690002A40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FA05BE306062690002A40E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				58FA05BF306062690002A40E /* RocksteroidUITests */,
+			);
+			name = RocksteroidUITests;
+			productName = RocksteroidUITests;
+			productReference = 58FA05BC306062690002A40E /* RocksteroidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58FA0594306062660002A40E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					58FA059B306062660002A40E = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					58FA05B1306062690002A40E = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 58FA059B306062660002A40E;
+					};
+					58FA05BB306062690002A40E = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 58FA059B306062660002A40E;
+					};
+				};
+			};
+			buildConfigurationList = 58FA0597306062660002A40E /* Build configuration list for PBXProject "Rocksteroid" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58FA0593306062660002A40E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 58FA059D306062660002A40E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58FA059B306062660002A40E /* Rocksteroid */,
+				58FA05B1306062690002A40E /* RocksteroidTests */,
+				58FA05BB306062690002A40E /* RocksteroidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58FA059A306062660002A40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		58FA05B0306062690002A40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		58FA05BA306062690002A40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58FA0598306062660002A40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		58FA05AE306062690002A40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		58FA05B8306062690002A40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58FA05B4306062690002A40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58FA059B306062660002A40E /* Rocksteroid */;
+			targetProxy = 58FA05B3306062690002A40E /* PBXContainerItemProxy */;
+		};
+		58FA05BE306062690002A40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58FA059B306062660002A40E /* Rocksteroid */;
+			targetProxy = 58FA05BD306062690002A40E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58FA05C2306062690002A40E /* Debug configuration for PBXProject "Rocksteroid" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FA05C3306062690002A40E /* Release configuration for PBXProject "Rocksteroid" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		58FA05C5306062690002A40E /* Debug configuration for PBXNativeTarget "Rocksteroid" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anri.Rocksteroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58FA05C6306062690002A40E /* Release configuration for PBXNativeTarget "Rocksteroid" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anri.Rocksteroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		58FA05C8306062690002A40E /* Debug configuration for PBXNativeTarget "RocksteroidTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anri.RocksteroidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocksteroid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rocksteroid";
+			};
+			name = Debug;
+		};
+		58FA05C9306062690002A40E /* Release configuration for PBXNativeTarget "RocksteroidTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anri.RocksteroidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocksteroid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rocksteroid";
+			};
+			name = Release;
+		};
+		58FA05CB306062690002A40E /* Debug configuration for PBXNativeTarget "RocksteroidUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anri.RocksteroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Rocksteroid;
+			};
+			name = Debug;
+		};
+		58FA05CC306062690002A40E /* Release configuration for PBXNativeTarget "RocksteroidUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48X5HG49F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anri.RocksteroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Rocksteroid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58FA0597306062660002A40E /* Build configuration list for PBXProject "Rocksteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FA05C2306062690002A40E /* Debug configuration for PBXProject "Rocksteroid" */,
+				58FA05C3306062690002A40E /* Release configuration for PBXProject "Rocksteroid" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		58FA05C4306062690002A40E /* Build configuration list for PBXNativeTarget "Rocksteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FA05C5306062690002A40E /* Debug configuration for PBXNativeTarget "Rocksteroid" */,
+				58FA05C6306062690002A40E /* Release configuration for PBXNativeTarget "Rocksteroid" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		58FA05C7306062690002A40E /* Build configuration list for PBXNativeTarget "RocksteroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FA05C8306062690002A40E /* Debug configuration for PBXNativeTarget "RocksteroidTests" */,
+				58FA05C9306062690002A40E /* Release configuration for PBXNativeTarget "RocksteroidTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		58FA05CA306062690002A40E /* Build configuration list for PBXNativeTarget "RocksteroidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FA05CB306062690002A40E /* Debug configuration for PBXNativeTarget "RocksteroidUITests" */,
+				58FA05CC306062690002A40E /* Release configuration for PBXNativeTarget "RocksteroidUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58FA0594306062660002A40E /* Project object */;
+	validationLevel = 1;
+}
