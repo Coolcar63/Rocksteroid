@@ -1,8 +1,7 @@
 # 🚀 Rocksteroid
 
 **Rocksteroid** is a fast-paced, arcade-style space shooter for macOS. Navigate your rocket, blast through waves of asteroids, and climb the leaderboard in a fight for survival across the cosmos!
-
-![Rocksteroid Screenshot](screenshot.png) <!-- Replace with an actual image link later -->
+!-- Replace with an actual image link later -->
 
 ## 🎮 Game Modes
 
@@ -34,7 +33,7 @@ Choose your challenge from the main menu:
 ### ⚠️ Fixing the "Unidentified Developer" Warning
 Since this app is not notarized by Apple, macOS may block it on the first launch. To fix this:
 
-- **The Easy Way**: Right-click `Rocksteroid.app` in your Applications folder $\rightarrow$ Select **Open** $\rightarrow$ Click **Open** again in the dialog box.
+- **The Easy Way**: Right-click `Rocksteroid.app` in your Applications folder $\rightarrow$ Select **Open** $\rightarrow$ Settings $\rightarrow$ Privacy & Security $\rightarrow$ Scroll down $\rightarrow$ Open Anyway.
 - **The Terminal Way**: Open the Terminal app and run the following command:
   ```bash
   xattr -cr /Applications/Rocksteroid.app
