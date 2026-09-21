@@ -7,30 +7,19 @@
 
 import Cocoa
 import SpriteKit
-import GameplayKit
 
-class ViewController: NSViewController {
+final class ViewController: NSViewController {
+    @IBOutlet var skView: NSView!
 
-    @IBOutlet var skView: SKView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let view = self.skView {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
+        let skView = SKView(frame: view.bounds)
+        skView.autoresizingMask = [.width, .height]
+        view.addSubview(skView)
+
+        let menuScene = MainMenuScene(size: skView.bounds.size)
+        menuScene.scaleMode = .resizeFill
+        skView.presentScene(menuScene)
     }
 }
-
