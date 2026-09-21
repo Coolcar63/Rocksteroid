@@ -33,7 +33,7 @@ Choose your challenge from the main menu:
 ### ⚠️ Fixing the "Unidentified Developer" Warning
 Since this app is not notarized by Apple, macOS may block it on the first launch. To fix this:
 
-- **The Easy Way**: Right-click `Rocksteroid.app` in your Applications folder $\rightarrow$ Select **Open** $\rightarrow$ Settings $\rightarrow$ Privacy & Security $\rightarrow$ Scroll down $\rightarrow$ Open Anyway.
+- **The Easy Way**: Right-click `Rocksteroid.app` in your Applications folder $\rightarrow$ Select **Open** $\rightarrow$ Settings $\rightarrow$ Privacy & Security $\rightarrow$ Scroll down $\rightarrow$ Click **Open Anyway**.
 - **The Terminal Way**: Open the Terminal app and run the following command:
   ```bash
   xattr -cr /Applications/Rocksteroid.app
